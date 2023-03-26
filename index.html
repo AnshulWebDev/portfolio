@@ -58,7 +58,7 @@
 
             <li class="text-gray-200 font-bold py-7 hover:text-[#DEFF58] cursor-pointer
              transition-all duration-500 relative group">
-              <a href="https://www.linkedin.com/in/av-dev">Contact Me</a>
+              <a href="#contactme">Contact Me</a>
 
               <div class="absolute bottom-0 w-full h-1 bg-[#DEFF58] hidden group-hover:block
             transition-all duration-500"></div>
@@ -109,9 +109,10 @@
               <h2 class="text-3xl text-[#EEF3DB] font-bold mb-3">
                 Random Password Generator
               </h2>
-              <p class="text-[#ABC3C6]">This project is a web-based tool that generates secure passwords with
-                customizable parameters and users can choose to include uppercase letters, lowercase letters, special characters,
-                and numeric values in their passwords.</p>
+              <p class="text-[#ABC3C6]">This project is a web-based tool that generates secure passwords with customizable parameters
+                and users can choose to include uppercase letters, 
+                lowercase letters, special characters, and numeric values in their passwords.
+              </p>
               <div class="mt-8 font-semibold text-white flex items-center gap-2">
                 <a href="https://github.com/AnsSec/PasswordGenerator"
                   class="rounded-lg flex items-center gap-2 px-4 py-2 w-max transition duration-150 ease-in-out bg-[#033E46] hover:text-[#DEFF58]">
@@ -125,9 +126,7 @@
                 </a>
               </div>
             </div>
-
           </li>
-
         </ul>
 
         <ul class="w-full md:w-5/6 space-y-10 py-5 ">
@@ -158,6 +157,7 @@
             </div>
           </li>
         </ul>
+
         <ul class="w-full md:w-5/6 space-y-10 py-5 ">
           <li
             class="flex rounded-lg flex-col md:flex-row items-center bg-[#033E46] dark:bg-primary-gray round overflow-hidden">
@@ -232,6 +232,44 @@
       </div>
 
     </section>
+    <div class="pb-4 border-b border-gray-600"></div>
+
+    <!-- Contact Us Form  -->
+    <form id="contactme" class="text-gray-600 body-font relative"
+          action="https://formspree.io/f/xgeblqpw"
+          method="POST"
+    >
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-12">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-[#E0F780]">Contact Me</h1>
+        </div>
+        <div class="lg:w-1/2 md:w-2/3 mx-auto">
+          <div class="flex flex-wrap -m-2">
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="name" class="leading-7 text-sm text-[#EEF3DB]">Name</label>
+                <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+            </div>
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="email" class="leading-7 text-sm text-[#EEF3DB]">Email</label>
+                <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+            </div>
+            <div class="p-2 w-full">
+              <div class="relative">
+                <label for="message" class="leading-7 text-sm text-[#EEF3DB]">Message</label>
+                <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+              </div>
+            </div>
+            <div class="p-2 w-full">
+              <button class="flex mx-auto text-[#022A30] bg-[#E0F780] border-0 py-2 px-8 focus:outline-none hover:bg-[#DEFF58] rounded text-lg">Button</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
     <div class="pb-4 border-b border-gray-600"></div>
 
     <!-- footer Section  -->
