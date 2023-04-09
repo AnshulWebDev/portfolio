@@ -6,7 +6,7 @@ import githubLogo from "../assets/LogosGithubIcon.svg";
 import webLogo from "../assets/Web.svg";
 const ProjectSection = () => {
   return (
-    <section className="text-gray-600 body-font" id="projects">
+    <section className="text-gray-600 body-font md:w-4/5 m-auto" id='projects'>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4  text-[#E0F780]">Projects</h1>
@@ -102,6 +102,7 @@ const ProjectSection = () => {
           </li>
         </ul>
       </div>
+      <div class="pb-4 border-b border-gray-600 "></div>
     </section>
   )
 }
