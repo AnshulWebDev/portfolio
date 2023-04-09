@@ -15,7 +15,7 @@ const Navbar = () => {
         };
     }, []);
     return (
-        <nav className={`text-gray-200 body-font pt-[1rem] sticky top-0 ${isSticky ? 'shadow-lg py-0' : 'bg-transparent py-2'}`}>
+        <nav className={`text-gray-200 body-font bg-[#022A30] w-full sticky top-0 ${isSticky ? 'shadow-lg ' : ''}`}>
             <div className="container mx-auto  flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                     <ul className="flex space-x-8">

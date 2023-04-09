@@ -2,11 +2,14 @@ import React from 'react'
 
 //components
 import Navbar from './component/Navbar';
+import Herosection from './component/Herosection';
+import ProjectSection from './component/ProjectSection';
+
 
 //Tailwind style
 import '../src/style/navbar.css';
 import '../src/style/herosection.css';
-import Herosection from './component/Herosection';
+import '../src/style/projectsection.css';
 
 
 const App = () => {
@@ -14,6 +17,8 @@ const App = () => {
     <>
       <Navbar />
       <Herosection />
+      <ProjectSection/>
+      
     </>
 
   )
