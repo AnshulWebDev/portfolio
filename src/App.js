@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //components
 import Navbar from './component/Navbar';
-import Herosection from './component/Herosection';
-import ProjectSection from './component/ProjectSection';
-import SkillsSection from './component/SkillsSection';
+import Home from './component/Home';
 import Contactme from './component/Contactme';
 import Footer from './component/Footer';
 
@@ -16,18 +15,16 @@ import '../src/style/skillsection.css';
 import '../src/style/contact.css';
 import '../src/style/footer.css';
 
-
-
 const App = () => {
   return (
-    <>
-    <Navbar/>
-    <Herosection/>
-    <ProjectSection/>
-    <SkillsSection/>
-    <Contactme/>
-    <Footer/>
-    </>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/contact' element={<Contactme />} />
+      </Routes>
+      <Footer />
+    </Router>
   )
 }
 

@@ -15,7 +15,7 @@ const SkillsSection = () => {
       <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <h2
           class="max-w-lg mb-6 body-font text-3xl font-bold leading-none tracking-tight text-[#E0F780] sm:text-4xl md:mx-auto">
-          <span class="relative inline-block">Me and MyTech Stack</span>
+          <span class="inline-block">Me and MyTech Stack</span>
         </h2>
         <p class="text-base text-[#D7DFCA] md:text-lg">
           Hello there! I am Anshul Vishwakarma, a full-stack developer enthusiast. I love coding and

@@ -1,6 +1,7 @@
 import React from 'react'
-
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 const Navbar = () => {
     const [isSticky, setIsSticky] = useState(false);
     useEffect(() => {
@@ -22,24 +23,14 @@ const Navbar = () => {
 
                         <li className="text-gray-200 font-bold py-7 hover:text-[#DEFF58] cursor-pointer
              transition-all duration-500 relative group">
-                            <a href="/">Home</a>
-
+                            <HashLink to={"/#herosection"} >Home</HashLink>
                             <div className="absolute bottom-0 w-full h-1 bg-[#DEFF58] hidden group-hover:block
             transition-all duration-500"></div>
                         </li>
 
                         <li className="text-gray-200 font-bold py-7 hover:text-[#DEFF58] cursor-pointer
              transition-all duration-500 relative group">
-                            <a href="#projects">Projects</a>
-
-                            <div className="absolute bottom-0 w-full h-1 bg-[#DEFF58] hidden group-hover:block
-            transition-all duration-500"></div>
-                        </li>
-
-
-                        <li className="text-gray-200 font-bold py-7 hover:text-[#DEFF58] cursor-pointer
-             transition-all duration-500 relative group">
-                            <a href="#skills">Skills</a>
+                            <HashLink to={"/#projects"}>Projects</HashLink>
 
                             <div className="absolute bottom-0 w-full h-1 bg-[#DEFF58] hidden group-hover:block
             transition-all duration-500"></div>
@@ -48,7 +39,16 @@ const Navbar = () => {
 
                         <li className="text-gray-200 font-bold py-7 hover:text-[#DEFF58] cursor-pointer
              transition-all duration-500 relative group">
-                            <a href="#contactme">Contact Me</a>
+                            <HashLink to={"/#skills"}>Skills</HashLink>
+
+                            <div className="absolute bottom-0 w-full h-1 bg-[#DEFF58] hidden group-hover:block
+            transition-all duration-500"></div>
+                        </li>
+
+
+                        <li className="text-gray-200 font-bold py-7 hover:text-[#DEFF58] cursor-pointer
+             transition-all duration-500 relative group">
+                            <Link to={"/contact"}>Contact Me</Link>
 
                             <div className="absolute bottom-0 w-full h-1 bg-[#DEFF58] hidden group-hover:block
             transition-all duration-500"></div>
