@@ -23,7 +23,7 @@ const Navbar = () => {
 
                         <li className="text-gray-200 font-bold py-7 hover:text-[#DEFF58] cursor-pointer
              transition-all duration-500 relative group">
-                            <HashLink to={"/#herosection"} >Home</HashLink>
+                            <HashLink to={"/#Home"} >Home</HashLink>
                             <div className="absolute bottom-0 w-full h-1 bg-[#DEFF58] hidden group-hover:block
             transition-all duration-500"></div>
                         </li>
