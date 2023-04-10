@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer class="body-font md:w-4/5 m-auto">
       <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" href="/">
-          <span class="ml-3 text-[#EEF3DB] text-xl cursor-pointer hover:text-[#E0F780] duration-[0.4s]">Anshul Vishwakarma </span>
-        </a>
+
+        <span class="flex title-font font-medium items-center md:justify-start justify-center ml-3 text-[#EEF3DB] text-xl hover:text-[#E0F780] duration-[0.4s]">Anshul Vishwakarma </span>
+
         <p class="text-sm text-[#ABC3C6] sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-[text-[#ABC3C6]] sm:py-2 sm:mt-0 mt-4">
           © 2023
         </p>
