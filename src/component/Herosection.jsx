@@ -27,7 +27,7 @@ const Herosection = () => {
                         I am a <span  className="role font-semibold text-[#E0F780]" ref={roleRef}></span>
                     </div>
                     <p className="mb-8 w-[70%] text-[#B1C6C9] font-medium leading-relaxed pb-[2rem]">Passionate full-stack developer,
-                        proficient in JavaScript, HTML, CSS, and Python. Constantly learning and seeking new challenges.</p>
+                        proficient in JavaScript, React.js, HTML, CSS, and Python. Constantly learning and seeking new challenges.</p>
                     <div className="flex justify-center">
                         <button
                             className="inline-flex text-[#022A30] bg-[#E0F780] border-0 py-2 px-6 focus:outline-none hover:bg-[#DEFF58] rounded text-lg"><a

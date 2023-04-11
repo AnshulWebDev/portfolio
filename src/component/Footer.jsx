@@ -10,7 +10,7 @@ const Footer = () => {
         <span class="flex title-font font-medium items-center md:justify-start justify-center ml-3 text-[#EEF3DB] text-xl hover:text-[#E0F780] duration-[0.4s]">Anshul Vishwakarma </span>
 
         <p class="text-sm text-[#ABC3C6] sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-[text-[#ABC3C6]] sm:py-2 sm:mt-0 mt-4">
-          © 2023
+        &#10084; © 2023
         </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <div class="flex gap-[1rem]">

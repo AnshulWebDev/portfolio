@@ -34,7 +34,7 @@ const SkillsSection = () => {
         <a href="https://tailwindcss.com"><img class="cursor-pointer duration-500	hover:scale-125"
             src={tailwindcss} />
         </a>
-        <a href="https://www.w3schools.com/js"><img class="cursor-pointer duration-500	hover:scale-125"
+        <a href="https://www.javascript.com"><img class="cursor-pointer duration-500	hover:scale-125"
             src={javascriptlogo}/>
         </a>
         <a href="https://www.debian.org"><img class="cursor-pointer duration-500	hover:scale-125"
@@ -46,7 +46,7 @@ const SkillsSection = () => {
         <a href="https://git-scm.com"><img class="cursor-pointer duration-500	hover:scale-125"
             src={gitLogo} />
         </a>
-        <a href="https://git-scm.com"><img class="cursor-pointer duration-500 w-7 h-7[32px]	hover:scale-125"
+        <a href="https://react.dev/"><img class="cursor-pointer duration-500 w-7 h-7[32px]	hover:scale-125"
             src={rLogo} />
         </a>
       </div>
