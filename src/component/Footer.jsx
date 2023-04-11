@@ -7,10 +7,10 @@ const Footer = () => {
     <footer class="body-font md:w-4/5 m-auto">
       <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
 
-        <span class="flex title-font font-medium items-center md:justify-start justify-center ml-3 text-[#EEF3DB] text-xl hover:text-[#E0F780] duration-[0.4s]">Anshul Vishwakarma </span>
+        <span class="flex title-font font-medium items-center md:justify-start justify-center ml-3 text-[#EEF3DB] text-sm hover:text-[#E0F780] duration-[0.4s]">Hosted with &#10084; by Netlify</span>
 
         <p class="text-sm text-[#ABC3C6] sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-[text-[#ABC3C6]] sm:py-2 sm:mt-0 mt-4">
-        &#10084; © 2023
+        © 2023 Anshul Vishwakarma
         </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <div class="flex gap-[1rem]">
